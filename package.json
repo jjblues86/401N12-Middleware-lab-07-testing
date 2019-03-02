@@ -1,0 +1,28 @@
+{
+  "name": "401N12-Middleware-lab-07-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjblues86/401N12-Middleware-lab-07-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjblues86/401N12-Middleware-lab-07-testing/issues"
+  },
+  "homepage": "https://github.com/jjblues86/401N12-Middleware-lab-07-testing#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "supertest": "^3.4.2"
+  }
+}
