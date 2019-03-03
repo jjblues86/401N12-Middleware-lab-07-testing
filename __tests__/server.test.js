@@ -17,9 +17,17 @@ describe('The Server', () => {
     });
 
     it('responds with a 500 on an error', () => {
+        return mockClient.get('/e')
+            .then(result => {
+                expect(result.status).toEqual(500);
+            });
     });
 
     it('responds with a 404 on an unknown route', () => {
+        return mockClient.get('/error')
+            .then(result => {
+                expect(result.status).toEqual(404);
+            });
     });
 
 });
