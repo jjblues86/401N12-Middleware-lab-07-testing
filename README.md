@@ -11,3 +11,9 @@
 
 # Modules
 * server.js
+
+# Tests
+* server.test.js
+* 'responds with a 200 on a good route'
+* 'responds with a 500 on an error'
+* 'responds with a 404 on an unknown route'

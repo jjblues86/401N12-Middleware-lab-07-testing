@@ -16,6 +16,7 @@ describe('The Server', () => {
             });
     });
 
+    
     it('responds with a 500 on an error', () => {
         return mockClient.get('/e')
             .then(result => {
