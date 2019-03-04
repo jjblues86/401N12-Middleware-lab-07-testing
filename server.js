@@ -8,6 +8,7 @@ const barf = (req,res,next) => next('throws an error');
 
 app.get('/a', (req,res) => {
     res.status(200).send('Route A');
+    
 });
 
 // Force an error
